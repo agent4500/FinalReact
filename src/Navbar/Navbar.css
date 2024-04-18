@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #1a202c;
+    padding: 1rem;
+  }
+  
+  .nav-link {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .nav-link.active .button {
+    background-color: #38a169;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #4a90e2;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #4299e1;
+  }
+  
